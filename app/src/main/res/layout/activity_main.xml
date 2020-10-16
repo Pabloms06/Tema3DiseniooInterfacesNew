@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="121dp"
+        android:layout_height="65dp"
+        android:text="@string/Nombre"
+        android:textSize="11pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteY="540dp"
+        android:layout_margin="480dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:baselineAlignBottom="true"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Editprofile"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Followers"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Following"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Estrellitas"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="61dp"
+        android:layout_height="45dp"
+        android:text="457"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="61dp"
+        android:layout_height="45dp"
+        android:text="432"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="61dp"
+        android:layout_height="45dp"
+        android:text="190"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

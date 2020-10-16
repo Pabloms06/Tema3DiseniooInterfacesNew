@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tema3DiseñoInterfaces</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Editprofile">Edit profile</string>
+    <string name="Followers">Followers</string>
+    <string name="Following">Following</string>
+    <string name="Estrellitas">Estrellitas</string>
+</resources>
